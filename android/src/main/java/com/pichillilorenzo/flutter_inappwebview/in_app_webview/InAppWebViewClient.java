@@ -110,6 +110,8 @@ public class InAppWebViewClient extends WebViewClient {
                 view.getContext().startActivity(intent);
 
             }
+
+            return true;
         }
 
         return false;
